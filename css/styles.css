@@ -376,7 +376,7 @@ img{
 
     /* portfolio filter buttons */
 .portfolio-main-filter li:not(:last-child){
-       margin-right: 8px;
+    margin-right: 8px;
 }
 
 .portfolio-main-filter-btn{
@@ -421,8 +421,6 @@ img{
 .portfolio-main-projects-list li{
     width: 370px;
 
-    text-align: center;
-
     background-color: var(--background-color-4);
     box-shadow: 0 0 0 1px var(--portfolio-border-color);
 }
@@ -432,12 +430,16 @@ img{
 }
 
 .portfolio-main-projects-list-h2{
+    margin: 20px 24px 4px 24px;
+
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio-main-project-list-p{
+.portfolio-main-projects-list-p{
+    margin: 0 24px 20px 24px;
+    
     font-size: 16px;
     line-height: 1.9;
 }
