@@ -289,10 +289,11 @@ img{
 .main-what-we-do li{
     margin-bottom: 0;
 }
-
+/*
 .main-what-we-do-list li:not(:last-child){
     margin-right: 30px;
 }
+*/
     /* our team */
 .main-our-team{
     background-color: var(--background-color-3);
